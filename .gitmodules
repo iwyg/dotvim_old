@@ -1,0 +1,9 @@
+[submodule "bundle/stylus"]
+	path = bundle/stylus
+	url = git://github.com/wavded/vim-stylus.git
+[submodule "bundle/jade"]
+	path = bundle/jade
+	url = git://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
