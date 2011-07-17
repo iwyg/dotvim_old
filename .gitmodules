@@ -7,3 +7,21 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/taglist-plus"]
+	path = bundle/taglist-plus
+	url = git://github.com/int3/vim-taglist-plus.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = git://github.com/sukima/xmledit.git
+[submodule "bundle/sparkup"]
+	path = bundle/sparkup
+	url = git://github.com/rstacruz/sparkup.git
+[submodule "bundle/jshint"]
+	path = bundle/jshint
+	url = git://github.com/walm/jshint.vim.git
