@@ -24,8 +24,8 @@ set number
 set undofile
 set ruler
 
-set nowrap
-"set wrap
+"set nowrap
+set wrap
 set textwidth=79
 set formatoptions=qrn1
 "set colorcolumn=85
@@ -100,6 +100,25 @@ set foldmethod=syntax
 "=====================================================================================
 " Plugin Configuration
 "=====================================================================================
+" Syntastic
+"=====================================================================================
+let g:syntastic_enable_signs=1
+let g:syntastic_quiet_warnings=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_disabled_filetypes = ['scss']
+"=====================================================================================
+" JSlint
+" Turn on JSLint error highlighting
+let g:JSLintHighlightErrorLine = 1
+"=====================================================================================
+" NERDTree	
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+map <Leader>n :NERDTreeToggle<CR>
+"=====================================================================================
+" Command-T configuration
+let g:CommandTMaxHeight=40
+"=====================================================================================
+
 
 "=====================================================================================
 " SYNTAX
@@ -149,24 +168,3 @@ nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
 if has("autocmd")
 	autocmd BufWritePre *.py,*.js,*.xsl,*.html :call <SID>StripTrailingWhitespaces()
 endif	
-"=====================================================================================
-" PLUGINS
-"=====================================================================================
-" Syntastic
-"=====================================================================================
-let g:syntastic_enable_signs=1
-let g:syntastic_quiet_warnings=1
-let g:syntastic_auto_loc_list=1
-let g:syntastic_disabled_filetypes = ['scss']
-"=====================================================================================
-" JSlint
-" Turn on JSLint error highlighting
-let g:JSLintHighlightErrorLine = 1
-"=====================================================================================
-" NERDTree	
-let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
-"=====================================================================================
-" Command-T configuration
-let g:CommandTMaxHeight=40
-"=====================================================================================
