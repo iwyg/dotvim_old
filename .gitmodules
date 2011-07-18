@@ -25,3 +25,30 @@
 [submodule "bundle/jshint"]
 	path = bundle/jshint
 	url = git://github.com/walm/jshint.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = git://github.com/mileszs/ack.vim.git
+[submodule "bundle/autocomplete"]
+	path = bundle/autocomplete
+	url = git://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/autocorrect"]
+	path = bundle/autocorrect
+	url = git://github.com/vim-scripts/autocorrect.vim.git
+[submodule "bundle/browser-refresh"]
+	path = bundle/browser-refresh
+	url = git://github.com/mkitt/browser-refresh.vim.git
+[submodule "bundle/processing"]
+	path = bundle/processing
+	url = git://github.com/vim-scripts/Processing.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim.git

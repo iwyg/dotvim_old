@@ -6,12 +6,12 @@ filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags() "call this when installing new plugins
 
-filetype on
-
+filetype plugin on
+set ofu=syntaxcomplete#Complete
 "=====================================================================================
 " BASIC SETTINGS
 let mapleader=","
-
+command! -nargs=* Wrap set wrap linebreak nolist
 " Set encoding
 set encoding=utf-8
 
@@ -23,12 +23,25 @@ set number
 "set relativenumber
 set undofile
 set ruler
-
+set title
+set backspace=indent,eol,start
 "set nowrap
 set wrap
 set textwidth=79
 set formatoptions=qrn1
 "set colorcolumn=85
+set autowrite
+if has("mouse")
+	set mouse=a
+endif	
+
+" Backups
+set history=1000
+set undolevels=1000
+set nobackup
+set directory=~/.vim/tmp/swap/
+
+
 
 " toggle line numbers
 nmap <Leader>R :set number!<CR>
@@ -43,12 +56,15 @@ set listchars=tab:▸\ ,eol:¬,trail:·
 set guioptions-=l
 set guioptions-=r
 
-"search highlighting
-set hlsearch
-set incsearch
+" Searching
 set ignorecase
 set smartcase
-
+set incsearch
+set showmatch
+set hlsearch
+set gdefault
+set grepprg=ack
+runtime macros/matchit.vim
 " Status bar
 set laststatus=2
 
@@ -83,6 +99,10 @@ set noexpandtab
 nmap <C-TAB> :b#<CR>
 vmap <C-TAB> :b#<CR>
 
+" Popup menu behavior
+set completeopt=longest,menu
+set pumheight=20
+
 "code folding
 "Then you can toggle folding with za. 
 "You can fold everything with zM and unfold everything with zR. zm and zr 
@@ -102,17 +122,23 @@ set foldmethod=syntax
 "=====================================================================================
 " Syntastic
 "=====================================================================================
+let g:syntasitc_enable_filetypes = ['js']
 let g:syntastic_enable_signs=1
-let g:syntastic_quiet_warnings=1
+"let g:syntastic_quiet_warnings=1
 let g:syntastic_auto_loc_list=1
-let g:syntastic_disabled_filetypes = ['scss']
+let g:syntastic_auto_jump=1
+"let g:syntastic_disabled_filetypes = ['scss']
 "=====================================================================================
 " JSlint
 " Turn on JSLint error highlighting
 let g:JSLintHighlightErrorLine = 1
 "=====================================================================================
-" NERDTree	
+" NERDTree and Supertab
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
+
+" Setup supertab to be a bit smarter about it's usage
+" let g:SuperTabDefaultCompletionType = 'context'
+let g:SuperTabLongestEnhanced = 1
 map <Leader>n :NERDTreeToggle<CR>
 "=====================================================================================
 " Command-T configuration
@@ -146,11 +172,19 @@ if !exists("autocommands_loaded")
 
 endif
 
+" stripping trailing whitespaces
+"
+"=====================================================================================
+" AUTOCOMPLETION
+"=====================================================================================
+if has("autocmd")
+	autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+	autocmd FileType html set omnifunc=htmlcomplete#completetags
+endif
 "=====================================================================================
 " WHITESPACES
 "=====================================================================================
 
-" stripping trailing whitespaces
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
     let _s=@/
@@ -168,3 +202,9 @@ nnoremap <silent> <F5> :call <SID>StripTrailingWhitespaces()<CR>
 if has("autocmd")
 	autocmd BufWritePre *.py,*.js,*.xsl,*.html :call <SID>StripTrailingWhitespaces()
 endif	
+
+" Themes and GUI settings
+" -----------------------------------------------------------------------------
+if $TERM == 'xterm-color' && &t_Co == 8
+  set t_Co=16
+endif
