@@ -57,9 +57,9 @@
 
 
     // Styling prefrences.
-    "newcap"        : true,   // Require capitalization of all constructor functions e.g. `new F()`.
+    "newcap"        : false,   // Require capitalization of all constructor functions e.g. `new F()`.
     "noempty"       : true,   // Prohipit use of empty blocks.
-    "nonew"         : true,   // Prohibit use of constructors for side-effects.
+    "nonew"         : false,   // Prohibit use of constructors for side-effects.
     "nomen"         : false,   // Prohibit use of initial or trailing underbars in names.
     "onevar"        : false,  // Allow only one `var` statement per function.
     "plusplus"      : true,  // Prohibit use of `++` & `--`.

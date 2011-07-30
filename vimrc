@@ -31,9 +31,10 @@ set textwidth=79
 set formatoptions=qrn1
 "set colorcolumn=85
 set autowrite
-if has("mouse")
-	set mouse=a
-endif	
+
+"if has("mouse")
+"	set mouse=a
+"endif	
 
 " Backups
 set history=1000
@@ -126,8 +127,8 @@ let g:syntasitc_enable_filetypes = ['js']
 let g:syntastic_enable_signs=1
 "let g:syntastic_quiet_warnings=1
 let g:syntastic_auto_loc_list=1
-let g:syntastic_auto_jump=1
-"let g:syntastic_disabled_filetypes = ['scss']
+let g:syntastic_auto_jump=0
+let g:syntastic_disabled_filetypes = ['scss']
 "=====================================================================================
 " JSlint
 " Turn on JSLint error highlighting
@@ -169,6 +170,9 @@ if !exists("autocommands_loaded")
 	au BufNewFile,BufRead *.json set ft=javascript
 
 	au BufRead,BufNewFile *.txt call s:setupWrapping()
+"typoscript
+	au BufNewFile,BufRead mozex.textarea.* setlocal filetype=typoscript
+	au BufNewFile,BufRead *.ts setlocal filetype=typoscript 	
 
 endif
 
@@ -179,7 +183,7 @@ endif
 "=====================================================================================
 if has("autocmd")
 	autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-	autocmd FileType html set omnifunc=htmlcomplete#completetags
+	autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 endif
 "=====================================================================================
 " WHITESPACES
@@ -207,4 +211,17 @@ endif
 " -----------------------------------------------------------------------------
 if $TERM == 'xterm-color' && &t_Co == 8
   set t_Co=16
+endif
+if $TERM == 'xterm-256color'
+  set t_Co=256
+endif
+
+if has("terminfo")
+  set t_Co=16
+  set t_AB=[%?%p1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
+  set t_AF=[%?%p1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
+else
+  set t_Co=16
+  set t_Sf=[3%dm
+  set t_Sb=[4%dm
 endif
