@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/docutils/!svn/ver/6328/trunk/docutils/docutils/writers/pep_html
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/docutils/!svn/ver/6328/trunk/docutils/docutils/writers/pep_html/__init__.py
+END
+template.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/docutils/!svn/ver/4456/trunk/docutils/docutils/writers/pep_html/template.txt
+END
+pep.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/docutils/!svn/ver/4564/trunk/docutils/docutils/writers/pep_html/pep.css
+END

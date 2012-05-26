@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/docutils/!svn/ver/7302/trunk/docutils/docs/user/rst
+END
+demo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/7302/trunk/docutils/docs/user/rst/demo.txt
+END
+quickstart.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/docutils/!svn/ver/5801/trunk/docutils/docs/user/rst/quickstart.txt
+END
+cheatsheet.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/docutils/!svn/ver/7056/trunk/docutils/docs/user/rst/cheatsheet.txt
+END
+quickref.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/6021/trunk/docutils/docs/user/rst/quickref.html
+END

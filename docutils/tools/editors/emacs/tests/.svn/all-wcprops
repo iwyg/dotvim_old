@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/docutils/!svn/ver/7398/trunk/docutils/tools/editors/emacs/tests
+END
+items.el
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/docutils/!svn/ver/6501/trunk/docutils/tools/editors/emacs/tests/items.el
+END
+indent.el
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/indent.el
+END
+toc.el
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/docutils/!svn/ver/6501/trunk/docutils/tools/editors/emacs/tests/toc.el
+END
+fill.el
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/fill.el
+END
+adornment.el
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/docutils/!svn/ver/6646/trunk/docutils/tools/editors/emacs/tests/adornment.el
+END
+movement.el
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/movement.el
+END
+font-lock.el
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/docutils/!svn/ver/7398/trunk/docutils/tools/editors/emacs/tests/font-lock.el
+END
+adjust-section.el
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/docutils/!svn/ver/6506/trunk/docutils/tools/editors/emacs/tests/adjust-section.el
+END
+comment.el
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/comment.el
+END
+ert-support.el
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/ert-support.el
+END
+re.el
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/docutils/!svn/ver/7398/trunk/docutils/tools/editors/emacs/tests/re.el
+END
+support.el
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/support.el
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/docutils/!svn/ver/6501/trunk/docutils/tools/editors/emacs/tests/README.txt
+END
+shift.el
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/shift.el
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/docutils/!svn/ver/6993/trunk/docutils/tools/editors/emacs/tests/Makefile
+END

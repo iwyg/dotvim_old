@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/docutils/math
+END
+tex2unichar.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/docutils/math/tex2unichar.py
+END
+unichar2tex.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/docutils/math/unichar2tex.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/docutils/math/__init__.py
+END
+math2html.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/docutils/!svn/ver/7084/trunk/docutils/docutils/math/math2html.py
+END
+latex2mathml.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/docutils/math/latex2mathml.py
+END

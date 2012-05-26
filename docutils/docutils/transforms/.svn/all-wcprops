@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/transforms
+END
+universal.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/docutils/!svn/ver/6112/trunk/docutils/docutils/transforms/universal.py
+END
+parts.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/docutils/!svn/ver/6073/trunk/docutils/docutils/transforms/parts.py
+END
+writer_aux.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/transforms/writer_aux.py
+END
+misc.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/6314/trunk/docutils/docutils/transforms/misc.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/docutils/!svn/ver/6433/trunk/docutils/docutils/transforms/__init__.py
+END
+references.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/transforms/references.py
+END
+components.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/docutils/!svn/ver/4564/trunk/docutils/docutils/transforms/components.py
+END
+frontmatter.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/docutils/!svn/ver/5618/trunk/docutils/docutils/transforms/frontmatter.py
+END
+peps.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/6433/trunk/docutils/docutils/transforms/peps.py
+END

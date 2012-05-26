@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/docutils/!svn/ver/7409/trunk/docutils/docutils
+END
+core.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/docutils/!svn/ver/7384/trunk/docutils/docutils/core.py
+END
+nodes.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/nodes.py
+END
+examples.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/examples.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/docutils/!svn/ver/7409/trunk/docutils/docutils/__init__.py
+END
+frontend.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/docutils/!svn/ver/7339/trunk/docutils/docutils/frontend.py
+END
+error_reporting.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/7316/trunk/docutils/docutils/error_reporting.py
+END
+_compat.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/docutils/!svn/ver/7316/trunk/docutils/docutils/_compat.py
+END
+_string_template_compat.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/docutils/!svn/ver/6105/trunk/docutils/docutils/_string_template_compat.py
+END
+docutils.conf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/3904/trunk/docutils/docutils/docutils.conf
+END
+statemachine.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/docutils/!svn/ver/7320/trunk/docutils/docutils/statemachine.py
+END
+urischemes.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/4564/trunk/docutils/docutils/urischemes.py
+END
+io.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/docutils/!svn/ver/7384/trunk/docutils/docutils/io.py
+END

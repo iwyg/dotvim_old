@@ -393,6 +393,9 @@ call s:X("rubyPredefinedIdentifier","de5577","","","Red","")
 " JavaScript
 hi link javaScriptValue Constant
 hi link javaScriptRegexpString rubyRegexp
+hi link javaScriptOperator Identifier
+highlight javaScriptPrototype guifg=#BADA55
+" -----------------------------------------------------------------------------
 
 " Tag list
 hi link TagListFileName Directory

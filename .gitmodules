@@ -58,3 +58,51 @@
 [submodule "bundle/tskeleton"]
 	path = bundle/tskeleton
 	url = git://github.com/tomtom/tskeleton_vim.git
+[submodule "bundle/tlib"]
+	path = bundle/tlib
+	url = git://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = git://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-css3-syntax"]
+	path = bundle/vim-css3-syntax
+	url = git://github.com/hail2u/vim-css3-syntax.git
+[submodule "bundle/jsbeautify"]
+	path = bundle/jsbeautify
+	url = git://github.com/xer0x/jsbeautify.git
+[submodule "bundle/mustache"]
+	path = bundle/mustache
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/vim-mustache"]
+	path = bundle/vim-mustache
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/vim-underscore"]
+	path = bundle/vim-underscore
+	url = git://github.com/aaronj1335/underscore-templates.vim.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
+[submodule "bundle/vim-cappuccino"]
+	path = bundle/vim-cappuccino
+	url = git://github.com/nanki/vim-objj.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = git://github.com/Shougo/neocomplcache.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git://github.com/mattn/gist-vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-xml"]
+	path = bundle/vim-xml
+	url = git://github.com/othree/xml.vim.git
+[submodule "bundle/vim-preview"]
+	path = bundle/vim-preview
+	url = git://github.com/greyblake/vim-preview.git
+[submodule "bundle/git-vim"]
+	path = bundle/git-vim
+	url = git://github.com/motemen/git-vim.git
+[submodule "bundle/vim-phpqa"]
+	path = bundle/vim-phpqa
+	url = git://github.com/joonty/vim-phpqa.git

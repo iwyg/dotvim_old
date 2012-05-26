@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/docutils/!svn/ver/7385/trunk/docutils/docutils/writers/odf_odt
+END
+pygmentsformatter.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/docutils/!svn/ver/5853/trunk/docutils/docutils/writers/odf_odt/pygmentsformatter.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/docutils/!svn/ver/7385/trunk/docutils/docutils/writers/odf_odt/__init__.py
+END
+styles.odt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/docutils/!svn/ver/7057/trunk/docutils/docutils/writers/odf_odt/styles.odt
+END

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/docutils/!svn/ver/7317/trunk/docutils/test/data
+END
+config_old.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/docutils/!svn/ver/3039/trunk/docutils/test/data/config_old.txt
+END
+full-template.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/4456/trunk/docutils/test/data/full-template.txt
+END
+config_error_handler.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/docutils/!svn/ver/1662/trunk/docutils/test/data/config_error_handler.txt
+END
+ham.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/docutils/!svn/ver/5800/trunk/docutils/test/data/ham.css
+END
+config_list_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/docutils/!svn/ver/7224/trunk/docutils/test/data/config_list_2.txt
+END
+include.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/docutils/!svn/ver/2678/trunk/docutils/test/data/include.txt
+END
+csv_dep.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/docutils/!svn/ver/2678/trunk/docutils/test/data/csv_dep.txt
+END
+csv_data.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/2678/trunk/docutils/test/data/csv_data.txt
+END
+config_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/4802/trunk/docutils/test/data/config_1.txt
+END
+ham.tex
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/docutils/!svn/ver/5906/trunk/docutils/test/data/ham.tex
+END
+dependencies.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/docutils/!svn/ver/7256/trunk/docutils/test/data/dependencies.txt
+END
+config_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/docutils/!svn/ver/2710/trunk/docutils/test/data/config_2.txt
+END
+latin1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/docutils/!svn/ver/7217/trunk/docutils/test/data/latin1.txt
+END
+stylesheet.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/docutils/!svn/ver/2678/trunk/docutils/test/data/stylesheet.txt
+END
+raw.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/docutils/!svn/ver/2678/trunk/docutils/test/data/raw.txt
+END
+config_list.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/docutils/!svn/ver/7224/trunk/docutils/test/data/config_list.txt
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/docutils/!svn/ver/7389/trunk/docutils/test/functional/expected
+END
+standalone_rst_manpage.man
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/docutils/!svn/ver/7321/trunk/docutils/test/functional/expected/standalone_rst_manpage.man
+END
+field_name_limit.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/field_name_limit.html
+END
+standalone_rst_html4css1.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/docutils/!svn/ver/7227/trunk/docutils/test/functional/expected/standalone_rst_html4css1.html
+END
+odt_tables1.odt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/docutils/!svn/ver/6988/trunk/docutils/test/functional/expected/odt_tables1.odt
+END
+misc_rst_html4css1.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/misc_rst_html4css1.html
+END
+math_output_mathjax.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/math_output_mathjax.html
+END
+dangerous.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/dangerous.html
+END
+standalone_rst_xetex.tex
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/docutils/!svn/ver/7389/trunk/docutils/test/functional/expected/standalone_rst_xetex.tex
+END
+standalone_rst_pseudoxml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/docutils/!svn/ver/7363/trunk/docutils/test/functional/expected/standalone_rst_pseudoxml.txt
+END
+standalone_rst_s5_html_1.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/standalone_rst_s5_html_1.html
+END
+standalone_rst_s5_html_2.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/standalone_rst_s5_html_2.html
+END
+math_output_html.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/math_output_html.html
+END
+xetex-cyrillic.tex
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/docutils/!svn/ver/7325/trunk/docutils/test/functional/expected/xetex-cyrillic.tex
+END
+math_output_mathml.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/docutils/!svn/ver/7218/trunk/docutils/test/functional/expected/math_output_mathml.xhtml
+END
+compact_lists.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/compact_lists.html
+END
+math_output_latex.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/math_output_latex.html
+END
+cyrillic.tex
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/docutils/!svn/ver/7325/trunk/docutils/test/functional/expected/cyrillic.tex
+END
+stylesheet_path_html4css1.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/docutils/!svn/ver/7374/trunk/docutils/test/functional/expected/stylesheet_path_html4css1.html
+END
+pep_html.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/docutils/!svn/ver/7111/trunk/docutils/test/functional/expected/pep_html.html
+END
+standalone_rst_latex.tex
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/docutils/!svn/ver/7325/trunk/docutils/test/functional/expected/standalone_rst_latex.tex
+END
+odt_basic.odt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/docutils/!svn/ver/6939/trunk/docutils/test/functional/expected/odt_basic.odt
+END
+latex_docinfo.tex
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/docutils/!svn/ver/6455/trunk/docutils/test/functional/expected/latex_docinfo.tex
+END
+odt_custom_headfoot.odt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/docutils/!svn/ver/6939/trunk/docutils/test/functional/expected/odt_custom_headfoot.odt
+END

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/docutils/!svn/ver/1090/trunk/docutils/test/test_parsers/test_rst/test_directives/includes/more
+END
+include6.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/docutils/!svn/ver/1090/trunk/docutils/test/test_parsers/test_rst/test_directives/includes/more/include6.txt
+END

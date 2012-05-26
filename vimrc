@@ -12,9 +12,15 @@ set ofu=syntaxcomplete#Complete
 " BASIC SETTINGS
 let mapleader=","
 command! -nargs=* Wrap set wrap linebreak nolist
-" Set encoding
-set encoding=utf-8
 
+"GIST VIM
+let g:github_user = "iwyg-snippets"
+let g:github_token = "$GITHUB_TOKEN"
+" Set encoding
+set encoding=utf8
+set fileencoding=utf8
+" cappuccino runtime
+set runtimepath+=/usr/local/narwhal/bin/objj
 "append $ when changing a word
 set cpoptions+=$
 
@@ -31,6 +37,8 @@ set textwidth=79
 set formatoptions=qrn1
 "set colorcolumn=85
 set autowrite
+
+set hidden
 
 "if has("mouse")
 "	set mouse=a
@@ -99,7 +107,7 @@ set noexpandtab
 
 nmap <C-TAB> :b#<CR>
 vmap <C-TAB> :b#<CR>
-
+nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 " Popup menu behavior
 set completeopt=longest,menu
 set pumheight=20
@@ -133,6 +141,8 @@ let g:syntastic_disabled_filetypes = ['scss']
 " JSlint
 " Turn on JSLint error highlighting
 let g:JSLintHighlightErrorLine = 1
+" JSbreautyfy JSlint
+let g:Jsbeautify_jslint_whitespace = 1
 "=====================================================================================
 " NERDTree and Supertab
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
@@ -140,7 +150,8 @@ let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 " Setup supertab to be a bit smarter about it's usage
 " let g:SuperTabDefaultCompletionType = 'context'
 let g:SuperTabLongestEnhanced = 1
-map <Leader>n :NERDTreeToggle<CR>
+map <Leader>n :NERDTree<CR>
+map <Leader>nn :NERDTreeToggle<CR>
 "=====================================================================================
 " Command-T configuration
 let g:CommandTMaxHeight=40
@@ -155,7 +166,8 @@ let g:CommandTMaxHeight=40
 function! FixJS()
   setlocal autoread
 "  execute('!sudo $HOME/.vim/syntax_checkers/compilers/fixjsstyle --strict --nojsdoc %')
-	execute('!fixjsstyle --strict --nojsdoc %')
+"	execute('!fixjsstyle --strict --nojsdoc %')
+	execute('!fixjsstyle --strict  %')
 endfunction
 :command! FJS :call FixJS()
 
@@ -165,7 +177,7 @@ if !exists("autocommands_loaded")
 " Less CSS Sytax
 	au BufNewFile,BufRead *.less set filetype=less
 " md, markdown, and mk are markdown and define buffer-local preview
-	au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} call s:setupMarkup()
+	au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} set ft=markdown
 " add json syntax highlighting
 	au BufNewFile,BufRead *.json set ft=javascript
 
@@ -173,6 +185,13 @@ if !exists("autocommands_loaded")
 "typoscript
 	au BufNewFile,BufRead mozex.textarea.* setlocal filetype=typoscript
 	au BufNewFile,BufRead *.ts setlocal filetype=typoscript 	
+"smarty	
+	au BufNewFile,BufRead *.tpl setlocal filetype=smarty 	
+"underscore templates 	
+	au BufNewFile,BufRead *.jst set syntax=jst
+
+"underscore templates 	
+	au BufNewFile,BufRead *.j set syntax=objj
 
 endif
 
@@ -184,6 +203,9 @@ endif
 if has("autocmd")
 	autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 	autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+	autocmd FileType smarty set omnifunc=htmlcomplete#CompleteTags
+	autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+	autocmd FileType xsl set omnifunc=xmlcomplete#CompleteTags
 endif
 "=====================================================================================
 " WHITESPACES
@@ -225,3 +247,34 @@ else
   set t_Sf=[3%dm
   set t_Sb=[4%dm
 endif
+
+" Show syntax highlighting groups for word under cursor
+" -----------------------------------------------------------------------------
+nmap <C-S-P> :call <SID>SynStack()<CR>
+function! <SID>SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfunc
+
+
+" --------------------
+autocmd FileWritePost,BufWritePost *.less :call LessCSSCompress()
+function! LessCSSCompress()
+  let cwd = expand('<afile>:p:h')
+  let name = expand('<afile>:t:r')
+  if (executable('lessc'))
+    cal system('lessc '.cwd.'/'.name.'.less > '.cwd.'/../css/'.name.'.css &')
+  endif
+endfunction
+
+
+" Mardown 2 Html Conversion
+nmap <leader>md :!/usr/local/bin/markdown % > %.html<cr> 
+
+" php doc
+source ~/.vim/php-doc.vim
+inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
+nnoremap <C-P> :call PhpDocSingle()<CR> 
+vnoremap <C-P> :call PhpDocRange()<CR> 
